@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- CSS main -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Slick slider -->
+    <link href='https://fonts.googleapis.com/css?family=Andika New Basic' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <title>Login Page</title>
+</head>
+
+<body>
+
+    <header>
+        <!-- Header Top -->
+        <div class="container ">
+            <div class="row header">
+                <div class="col-lg-3 col-12 p-0 logo">
+                    <a href="#"><img src="../images/logo.png" alt="#"></a>
+                </div>
+                <div class="col-lg-9 col-12">
+                    <div class="row header-mobile">
+                        <div class="col-4 p-0">
+                            <div class="search">
+                                <input type="text" name="search" placeholder="Tìm kiếm..." />
+                                <button type="submit"><em class="fas fa-search"></em></button>
+                            </div>
+                        </div>
+                        <div class="col-8 info">
+                            <div class="address info-sub">
+                                <div class="item">
+                                    <em class="fas fa-map-marker-alt"></em>
+                                </div>
+                                <div class="description">
+                                    <a href="#">
+                                        <div class="title">Địa chỉ</div>
+                                        <div class="desc">Xem bản đồ</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="support info-sub">
+                                <div class="item">
+                                    <em class="fas fa-headphones-alt"></em>
+                                </div>
+                                <div class="description">
+                                    <a href="#">
+                                        <div class="title">Hỗ trợ</div>
+                                        <div class="desc">0976.0920.000</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- <div class="account info-sub">
+                                <div class="item">
+                                    <em class="fas fa-user"></em>
+                                </div>
+                                <div class="description">
+                                    <a href="#">
+                                        <div class="title">Tài khoản</div>
+                                        <div class="desc">Đăng kí/Đăng nhập</div>
+                                    </a>
+                                </div>
+                            </div> -->
+                            <div class="cart info-sub">
+                                <a href="#">
+                                    <div class="item ">
+                                        <em class="fas fa-shopping-cart"></em>
+                                    </div>
+                                    <div class="description">
+
+                                        <div class="title">Giỏ hàng</div>
+                                        <div class="desc">(0) Sản phẩm</div>
+                                    </div>
+                                </a>
+                                <div class="content-hover">
+                                    <div class="wrapper">
+                                        <div class="item-hover d-flex">
+                                            <div class="image-product">
+                                                <img src="../images/product-item-03.png" width="80" height="80"
+                                                    alt="Ảnh">
+                                            </div>
+                                            <a href="#">
+                                                <div class="product-info">
+                                                    <div class="name">Máy tập cơ bụng New Sick Pack Care 2015</div>
+                                                    <div class="cost ">
+                                                        <div class="price">1,350,000 đ</div>
+                                                        <div class="amount mr-auto">x3</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="item-hover d-flex">
+                                            <div class="image-product">
+                                                <img src="../images/product-item-03.png" width="80" height="80"
+                                                    alt="Ảnh">
+                                            </div>
+                                            <a href="#">
+                                                <div class="product-info">
+                                                    <div class="name">Máy tập cơ bụng New Sick Pack Care 2015</div>
+                                                    <div class="cost ">
+                                                        <div class="price">1,350,000 đ</div>
+                                                        <div class="amount mr-auto">x3</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="item-hover d-flex">
+                                            <div class="image-product">
+                                                <img src="../images/product-item-03.png" width="80" height="80"
+                                                    alt="Ảnh">
+                                            </div>
+                                            <a href="#">
+                                                <div class="product-info">
+                                                    <div class="name">Máy tập cơ bụng New Sick Pack Care 2015</div>
+                                                    <div class="cost ">
+                                                        <div class="price">1,350,000 đ</div>
+                                                        <div class="amount mr-auto">x3</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="item-hover d-flex">
+                                            <div class="image-product">
+                                                <img src="../images/product-item-03.png" width="80" height="80"
+                                                    alt="Ảnh">
+                                            </div>
+                                            <a href="#">
+                                                <div class="product-info">
+                                                    <div class="name">Máy tập cơ bụng New Sick Pack Care 2015</div>
+                                                    <div class="cost ">
+                                                        <div class="price">1,350,000 đ</div>
+                                                        <div class="amount mr-auto">x3</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="total-price">Tổng tiền: <span class="value">1,350,000</span></div>
+                                    <div class="link-hover">
+                                        <a href="#" class="btn">Giỏ hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- MENU -->
+        <div class="header-menu">
+            <div class="container">
+                <nav class="header-nav">
+                    <ul class="item-big d-lg-flex d-none">
+                        <li class="nav-item active"><a href="#"><span>Trang chủ</span></a></li>
+                        <li class="nav-item "><a href="#">Sản phẩm</a></li>
+                        <li class="nav-item "><a href="#">Giới thiệu</a></li>
+                        <li class="nav-item "><a href="#">Tin tức</a></li>
+                        <li class="nav-item "><a href="#">Liên hệ</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Menu Mobile -->
+    <div class="d-lg-none d-block menu-mobile">
+        <div class="menu-icon">
+            <span class="menu-icon__line menu-icon__line-left"></span>
+            <span class="menu-icon__line"></span>
+            <span class="menu-icon__line menu-icon__line-right"></span>
+        </div>
+
+        <div class="nav">
+            <div class="nav__content">
+                <ul class="nav__list">
+                    <li class="nav__list-item">Trang chủ</li>
+                    <li class="nav__list-item">Sản phẩm</li>
+                    <li class="nav__list-item">Giới thiệu</li>
+                    <li class="nav__list-item">Tin tức</li>
+                    <li class="nav__list-item">Liên hệ</li>
+                </ul>
+            </div>
+        </div>
+        <div class="container menu-mobile-wrap">
+            <div class="row">
+                <div class="col-6 col-sm-7">
+                    <div class="search d-flex">
+                        <input type="text" name="search" placeholder="Tìm kiếm..." />
+                        <button type="submit"><em class="fas fa-search"></em></button>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-5 cart d-flex">
+                    <div class="item ">
+                        <em class="fas fa-shopping-cart"></em>
+                    </div>
+                    <div class="description">
+                        <a href="#">
+                            <div class="title">Giỏ hàng</div>
+                            <div class="desc">(0) Sản phẩm</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END Menu Mobile -->
+    <!-- END Header -->
+    
+
+    <!-- Content Page -->
+    <section class="section-link">
+    <div class="link-title container">
+        <div><a href="#">Trang chủ</a><span> / </span></div>
+        <div ><a href="#" class="active">Đăng nhập</a></div>
+    </div></section>
+    <section class="section-main">
+        <div class="content-main container">
+            <div class="title-content">Đăng nhập tài khoản</div>
+            <div class="content-form">
+                <form>
+                    <div class="form-group">
+                      <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email hoặc Số điện thoại" required>
+                      <small id="emailHelp" class="form-text text-muted font-size-10px">Chúng tôi sẽ không bao giờ chia sẻ email của bạn với bất kỳ ai khác.</small>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="password" class="form-control" id="password" placeholder="Mật khẩu" required>
+                        <div class="mt-1"><a href="#">Quên mật khẩu?</a></div>
+                    </div>
+                      
+                  </form>
+            </div>
+            <div class="login-button">
+                <div class="normal-login">
+                    <button type="button" name="login-nor" id="login-nor" class="btn btn-lg btn-block">Đăng nhập</button>
+                </div>
+                <div class="title-concat d-flex">
+                    <hr  width="22%"/>
+                    <p>Hoặc đăng nhập</p>
+                    <hr  width="22%"/>
+                </div>
+                <div class="link-api">
+                   <div class="login-facebook">
+                    <em class="fab fa-facebook-f"></em>
+                    <button type="button" >FaceBook</button>
+                   </div>
+                   <div class="login-google">
+                    <em class="fab fa-google"></em>
+                    <button type="button" >Google</button>
+                   </div>  
+                </div>
+                
+            </div>
+            <p class="text-center pt-3">Bạn chưa có tài khoản? Hãy đăng kí <span class="link-check"><a href="#">tại đây</a></span></p>
+        </div>
+    </section>
+    <!-- END content Page -->
+
+     <!-- FOOTER -->
+     <footer>
+        <div class="container">
+            <div class="row">
+                <div class="self col-md-6 col-lg-4 col-12">
+                    <div><a href="#"><img src="../images/logo-footer.png" alt=""></a></div>
+                    <div class="desc">
+                        <p>E-Sport là sự lựa chọn hoàn hảo cho các website thể thao - dịch vụ, đồ dùng phòng tập gym với
+                            thiết
+                            kế mạnh mẽ trên nền xanh đen lôi cuốn</p>
+                    </div>
+                    <div class="social">
+                        <h5>Theo dõi</h5>
+                        <ul>
+                            <li><a href="#"><em class="fab fa-facebook-f"></em></a></li>
+                            <li><a href="#"><em class="fab fa-twitter"></em></a></li>
+                            <li><a href="#"><em class="fab fa-google"></em></a></li>
+                            <li><a href="#"><em class="fab fa-youtube"></em></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tags col-md-6 col-lg-4 col-12">
+                    <div class="title">
+                        <h5>Tags Sản Phẩm</h5>
+                    </div>
+                    <div class="wrap">
+                        <ul class="tag-name">
+                            <li><a href="#">Casio</a></li>
+                            <li><a href="#">Phụ kiện</a></li>
+                            <li><a href="#">Dây lưng</a></li>
+                            <li><a href="#">Ví da</a></li>
+                            <li><a href="#">Túi xách</a></li>
+                            <li><a href="#">Mike Tyson</a></li>
+                            <li><a href="#">Cristiano Ronaldo</a></li>
+                            <li><a href="#">Lionel Messi</a></li>
+                            <li><a href="#">Albert Einstein</a></li>
+                            <li><a href="#">Ricardo</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="address-shop col-md-6 col-lg-4 col-12">
+                    <div class="title">
+                        <h5>Địa chỉ cửa hàng</h5>
+                    </div>
+                    <div class="detail">
+                        <div class="title">Showroom</div>
+                        <div class="content-detail">
+                            Tầng 6 - Tòa nhà Ladeco - 266 Đội Cấn, Hà Nội, Vietnam
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <div class="title">Hỗ trợ và tư vấn</div>
+                        <div class="content-detail">
+                            1800 6750
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <div class="title">Email</div>
+                        <div class="content-detail">
+                            support@sapo.vn
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <div class="copy-right">
+        <div class="container">
+            <em class="far fa-copyright"></em> Bản quyền thuộc về <span class="text-white"><a
+                    href="https://www.sapo.vn/?utm_campaign=cpn:site_khach_hang-plm:footer&utm_source=site_khach_hang&utm_medium=referral&utm_content=fm:text_link-km:-sz:&utm_term=&campaign=site_khach_hang">Sapo</a></span>
+        </div>
+    </div>
+
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="quick-view row">
+                    <div class="col-6">
+                        <div class="slider-for">
+                            <div><img src="../images/7.jpg" alt="" width="100%" height="430px"></div>
+                            <div><img src="../images/9.jpg" alt="" width="100%" height="430px"></div>
+                            <div><img src="../images/8.jpg" alt="" width="100%" height="430px"></div>
+                            <div><img src="../images/10.jpg" alt="" width="100%" height="430px"></div>
+                        </div>
+                        <div class="thumbnail-slide">
+
+                            <div class=" slider-nav clearfix d-flex justify-content-between">
+                                <div><img src="../images/7.jpg" alt="" width="80" height="80"></div>
+                                <div><img src="../images/9.jpg" alt="" width="80" height="80"></div>
+                                <div><img src="../images/8.jpg" alt="" width="80" height="80"></div>
+                                <div><img src="../images/10.jpg" alt="" width="80" height="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div>
+                            <div class="title-main">
+                                <h6>Máy tập cơ bụng New Sick Pack Care 2015</h6>
+                                <div class="view-brand">
+                                    <div class="view">
+                                        <div class="rating"> <input type="radio" name="rating" value="5" id="5"><label
+                                                for="5">☆</label> <input type="radio" name="rating" value="4"
+                                                id="4"><label for="4">☆</label> <input type="radio" name="rating"
+                                                value="3" id="3"><label for="3">☆</label> <input type="radio"
+                                                name="rating" value="2" id="2"><label for="2">☆</label> <input
+                                                type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                                        </div>
+                                        <p>3 Reviews</p>
+                                    </div>
+                                    <div class="brand-detail">
+                                        <p><strong>Thương hiệu </strong>:<span> Brano</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cost">
+                                <div class="price">1,350,000 đ</div>
+                                <div class="price-sale">1,550,000 đ</div>
+                            </div>
+                            <div class="description">
+                                High Resolution: Yes, Widget Ready: Yes, Compatible Browsers: IE9, IE10, IE11, Firefox,
+                                Safari, Opera, Chrome, Edge, Framework: Unyson, Software Version: WordPress
+                            </div>
+                            <div class="color">
+                                <p>Màu sắc</p>
+                                <div class="image-color">
+                                    <img src="../images/image-color-black.png" alt="">
+                                    <img src="../images/image-color-blue.png" alt="">
+                                    <img src="../images/image-color-red.png" alt="">
+                                    <img src="../images/image-color-yellow.png" alt="">
+                                </div>
+                            </div>
+                            <div class="add-cart">
+                                <div class="number-input md-number-input">
+                                    <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-caret-left"></i></button>
+                                    <input class="quantity" min="1" name="quantity" value="1" type="number">
+                                    <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-caret-right"></i></button>
+                                </div>
+                                <div class="add-btn">
+                                    <button type="button">Thêm vào giỏ hàng</button>
+                                </div>
+                                <div class="like">
+                                    <em class="far fa-heart"></em>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="../js/javascript.js"></script>
+    <!-- Js Main -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+</body>
+
+</html>

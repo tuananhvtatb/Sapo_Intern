@@ -1,0 +1,184 @@
+{
+  "id": "7a7ec56e-9db3-4b32-8efb-cf820b4cd1ac",
+  "name": "user",
+  "description": "",
+  "auth": null,
+  "events": null,
+  "variables": [],
+  "order": [
+    "203e0f4a-a3a6-45cb-8871-b16439fc7971",
+    "0fa2f3ee-1bc3-46ff-97db-16fe814551d1",
+    "187e2060-457f-45c9-bacd-51a7d824bda7",
+    "11065504-4fb9-45bb-9dbf-68172173ff9b",
+    "0c147971-8426-486f-90c2-c7ba3d55fe10",
+    "0cfcda8b-29a7-496e-ad2e-a67f0851eb11",
+    "75945d17-8f2e-4295-9245-9eddc948c19b"
+  ],
+  "folders_order": [],
+  "protocolProfileBehavior": {},
+  "folders": [],
+  "requests": [
+    {
+      "id": "0c147971-8426-486f-90c2-c7ba3d55fe10",
+      "name": "Logs user into the system",
+      "url": "https://petstore.swagger.io/v2/user/login?username=string&password=bavb123",
+      "description": "",
+      "data": null,
+      "dataOptions": null,
+      "dataMode": null,
+      "headerData": null,
+      "method": "GET",
+      "pathVariableData": [],
+      "queryParams": [
+        {
+          "key": "username",
+          "value": "string",
+          "equals": true,
+          "description": "",
+          "enabled": true
+        },
+        {
+          "key": "password",
+          "value": "bavb123",
+          "equals": true,
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "auth": null,
+      "events": null,
+      "folder": null,
+      "pathVariables": {}
+    },
+    {
+      "id": "0cfcda8b-29a7-496e-ad2e-a67f0851eb11",
+      "name": "Logs out current logged in user session",
+      "url": "https://petstore.swagger.io/v2/user/logout",
+      "description": "",
+      "data": null,
+      "dataOptions": null,
+      "dataMode": null,
+      "headerData": null,
+      "method": "GET",
+      "pathVariableData": [],
+      "queryParams": [],
+      "auth": null,
+      "events": null,
+      "folder": null,
+      "pathVariables": {}
+    },
+    {
+      "id": "0fa2f3ee-1bc3-46ff-97db-16fe814551d1",
+      "name": "Creates list of users with given input array",
+      "url": "https://petstore.swagger.io/v2/user/createWithList",
+      "description": "",
+      "data": [],
+      "dataOptions": {
+        "raw": {
+          "language": "json"
+        }
+      },
+      "dataMode": "raw",
+      "headerData": null,
+      "method": "POST",
+      "pathVariableData": [],
+      "queryParams": [],
+      "auth": null,
+      "events": null,
+      "folder": null,
+      "rawModeData": "[\r\n  {\r\n    \"id\": 0,\r\n    \"username\": \"string\",\r\n    \"firstName\": \"string\",\r\n    \"lastName\": \"string\",\r\n    \"email\": \"string\",\r\n    \"password\": \"string\",\r\n    \"phone\": \"string\",\r\n    \"userStatus\": 0\r\n  }\r\n]",
+      "pathVariables": {}
+    },
+    {
+      "id": "11065504-4fb9-45bb-9dbf-68172173ff9b",
+      "name": "Updated user",
+      "url": "https://petstore.swagger.io/v2/user/string",
+      "description": "",
+      "data": [],
+      "dataOptions": {
+        "raw": {
+          "language": "json"
+        }
+      },
+      "dataMode": "raw",
+      "headerData": null,
+      "method": "PUT",
+      "pathVariableData": [],
+      "queryParams": [],
+      "auth": null,
+      "events": null,
+      "folder": null,
+      "rawModeData": "{\r\n  \"id\": 0,\r\n  \"username\": \"string\",\r\n  \"firstName\": \"string\",\r\n  \"lastName\": \"string\",\r\n  \"email\": \"string\",\r\n  \"password\": \"string\",\r\n  \"phone\": \"string\",\r\n  \"userStatus\": 0\r\n}",
+      "pathVariables": {}
+    },
+    {
+      "id": "187e2060-457f-45c9-bacd-51a7d824bda7",
+      "name": "Get user by user name",
+      "url": "https://petstore.swagger.io/v2/user/string",
+      "description": "",
+      "data": [],
+      "dataOptions": {
+        "raw": {
+          "language": "json"
+        }
+      },
+      "dataMode": "raw",
+      "headerData": null,
+      "method": "GET",
+      "pathVariableData": [],
+      "queryParams": [],
+      "auth": null,
+      "events": null,
+      "folder": null,
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "rawModeData": "[\r\n  {\r\n    \"id\": 0,\r\n    \"username\": \"string\",\r\n    \"firstName\": \"string\",\r\n    \"lastName\": \"string\",\r\n    \"email\": \"string\",\r\n    \"password\": \"string\",\r\n    \"phone\": \"string\",\r\n    \"userStatus\": 0\r\n  }\r\n]",
+      "pathVariables": {}
+    },
+    {
+      "id": "203e0f4a-a3a6-45cb-8871-b16439fc7971",
+      "name": "Creates list of users with given input array",
+      "url": "https://petstore.swagger.io/v2/user/createWithArray",
+      "description": "",
+      "data": [],
+      "dataOptions": {
+        "raw": {
+          "language": "json"
+        }
+      },
+      "dataMode": "raw",
+      "headerData": null,
+      "method": "POST",
+      "pathVariableData": [],
+      "queryParams": [],
+      "auth": null,
+      "events": null,
+      "folder": null,
+      "rawModeData": "[\r\n  {\r\n    \"id\": 0,\r\n    \"username\": \"string\",\r\n    \"firstName\": \"string\",\r\n    \"lastName\": \"string\",\r\n    \"email\": \"string\",\r\n    \"password\": \"string\",\r\n    \"phone\": \"string\",\r\n    \"userStatus\": 0\r\n  }\r\n]",
+      "pathVariables": {}
+    },
+    {
+      "id": "75945d17-8f2e-4295-9245-9eddc948c19b",
+      "name": "Create user",
+      "url": "https://petstore.swagger.io/v2/user",
+      "description": "",
+      "data": [],
+      "dataOptions": {
+        "raw": {
+          "language": "json"
+        }
+      },
+      "dataMode": "raw",
+      "headerData": null,
+      "method": "POST",
+      "pathVariableData": [],
+      "queryParams": [],
+      "auth": null,
+      "events": null,
+      "folder": null,
+      "rawModeData": "{\r\n  \"code\": 200,\r\n  \"type\": \"unknown\",\r\n  \"message\": \"9013685127327280920\"\r\n}",
+      "pathVariables": {}
+    }
+  ]
+}

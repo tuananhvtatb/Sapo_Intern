@@ -1,0 +1,93 @@
+{
+  "id": "a9db782e-7ca4-4656-bda9-bc4f8d548f48",
+  "name": "store",
+  "description": "",
+  "auth": null,
+  "events": null,
+  "variables": [],
+  "order": [
+    "e9047bb3-6423-4e48-9b5d-0cdac41e8a29",
+    "dd7f5522-4936-494c-8553-610fe7b0bd6c",
+    "9181731e-5848-4fd6-941b-efa71dea3fdf",
+    "17c63e8a-6233-4e44-a2ca-208451d71132"
+  ],
+  "folders_order": [],
+  "protocolProfileBehavior": {},
+  "folders": [],
+  "requests": [
+    {
+      "id": "17c63e8a-6233-4e44-a2ca-208451d71132",
+      "name": "Returns pet inventories by status",
+      "url": "https://petstore.swagger.io/v2/store/inventory",
+      "description": "",
+      "data": null,
+      "dataOptions": null,
+      "dataMode": null,
+      "headerData": null,
+      "method": "GET",
+      "pathVariableData": [],
+      "queryParams": [],
+      "auth": null,
+      "events": null,
+      "folder": null,
+      "pathVariables": {}
+    },
+    {
+      "id": "9181731e-5848-4fd6-941b-efa71dea3fdf",
+      "name": "Delete purchase order by ID",
+      "url": "https://petstore.swagger.io/v2/store/order/6",
+      "description": "",
+      "data": [],
+      "dataOptions": null,
+      "dataMode": "raw",
+      "headerData": null,
+      "method": "DELETE",
+      "pathVariableData": [],
+      "queryParams": [],
+      "auth": null,
+      "events": null,
+      "folder": null,
+      "rawModeData": "",
+      "pathVariables": {}
+    },
+    {
+      "id": "dd7f5522-4936-494c-8553-610fe7b0bd6c",
+      "name": "/store/order/1",
+      "url": "https://petstore.swagger.io/v2/store/order/1",
+      "description": "",
+      "data": null,
+      "dataOptions": null,
+      "dataMode": null,
+      "headerData": null,
+      "method": "GET",
+      "pathVariableData": [],
+      "queryParams": [],
+      "auth": null,
+      "events": null,
+      "folder": null,
+      "pathVariables": {}
+    },
+    {
+      "id": "e9047bb3-6423-4e48-9b5d-0cdac41e8a29",
+      "name": "/store/order",
+      "url": "https://petstore.swagger.io/v2/store/order",
+      "description": "",
+      "data": [],
+      "dataOptions": {
+        "raw": {
+          "language": "json"
+        }
+      },
+      "dataMode": "raw",
+      "headerData": null,
+      "method": "POST",
+      "pathVariableData": [],
+      "queryParams": [],
+      "auth": null,
+      "events": null,
+      "folder": null,
+      "rawModeData": "{\r\n  \"id\": 0,\r\n  \"petId\": 0,\r\n  \"quantity\": 0,\r\n  \"shipDate\": \"2020-12-08T04:31:26.938Z\",\r\n  \"status\": \"placed\",\r\n  \"complete\": true\r\n}",
+      "pathVariables": {}
+    }
+  ]
+}

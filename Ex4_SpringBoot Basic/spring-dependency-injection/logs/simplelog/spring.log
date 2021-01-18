@@ -1,0 +1,90 @@
+06-12-2020 18:27:19 - Starting DemoApplication on TuanAnhvt-PC with PID 21764 (D:\spring-dependency-injection\target\classes started by TuanAnh in D:\spring-dependency-injection)
+06-12-2020 18:27:19 - The following profiles are active: OK ! Active profiles
+06-12-2020 18:27:19 - Started DemoApplication in 1.109 seconds (JVM running for 1.995)
+06-12-2020 18:27:27 - ============Select a request==========
+06-12-2020 18:27:27 - 1. Withdraw money
+06-12-2020 18:27:27 - 2. Deposit money
+06-12-2020 18:27:27 - 3. Display information
+06-12-2020 18:27:27 - 4. Exit
+06-12-2020 18:27:27 - Select:
+06-12-2020 18:27:30 - Input amount:
+06-12-2020 18:27:32 - Insufficient Balance
+06-12-2020 18:27:32 - Do you want to execute another exchange?(Y/N):
+06-12-2020 18:29:59 - Starting DemoApplication on TuanAnhvt-PC with PID 28792 (D:\spring-dependency-injection\target\classes started by TuanAnh in D:\spring-dependency-injection)
+06-12-2020 18:29:59 - The following profiles are active: OK ! Active profiles
+06-12-2020 18:30:00 - Started DemoApplication in 0.948 seconds (JVM running for 4.013)
+06-12-2020 18:30:05 - ============Select a request==========
+06-12-2020 18:30:05 - 1. Withdraw money
+06-12-2020 18:30:05 - 2. Deposit money
+06-12-2020 18:30:05 - 3. Display information
+06-12-2020 18:30:05 - 4. Exit
+06-12-2020 18:30:05 - Select:
+06-12-2020 18:30:06 - Don't this request!
+06-12-2020 18:30:06 - ============Select a request==========
+06-12-2020 18:30:06 - 1. Withdraw money
+06-12-2020 18:30:06 - 2. Deposit money
+06-12-2020 18:30:06 - 3. Display information
+06-12-2020 18:30:06 - 4. Exit
+06-12-2020 18:30:06 - Select:
+06-12-2020 18:30:10 - Don't this request!
+06-12-2020 18:30:10 - ============Select a request==========
+06-12-2020 18:30:10 - 1. Withdraw money
+06-12-2020 18:30:10 - 2. Deposit money
+06-12-2020 18:30:10 - 3. Display information
+06-12-2020 18:30:10 - 4. Exit
+06-12-2020 18:30:10 - Select:
+06-12-2020 18:39:25 - Starting DemoApplication on TuanAnhvt-PC with PID 42240 (D:\spring-dependency-injection\target\classes started by TuanAnh in D:\spring-dependency-injection)
+06-12-2020 18:39:25 - The following profiles are active: atm
+06-12-2020 18:39:25 - Started DemoApplication in 0.611 seconds (JVM running for 1.189)
+06-12-2020 18:39:31 - ============Select a request==========
+06-12-2020 18:39:31 - 1. Withdraw money
+06-12-2020 18:39:31 - 2. Deposit money
+06-12-2020 18:39:31 - 3. Display information
+06-12-2020 18:39:31 - 4. Exit
+06-12-2020 18:39:31 - Select:
+06-12-2020 18:40:09 - Starting DemoApplication on TuanAnhvt-PC with PID 44616 (D:\spring-dependency-injection\target\classes started by TuanAnh in D:\spring-dependency-injection)
+06-12-2020 18:40:09 - The following profiles are active: atm
+06-12-2020 18:40:09 - Started DemoApplication in 0.565 seconds (JVM running for 1.218)
+06-12-2020 18:40:12 - ============Select a request==========
+06-12-2020 18:40:12 - 1. Withdraw money
+06-12-2020 18:40:12 - 2. Deposit money
+06-12-2020 18:40:12 - 3. Display information
+06-12-2020 18:40:12 - 4. Exit
+06-12-2020 18:40:12 - Select:
+06-12-2020 20:39:25 - Starting DemoApplication on TuanAnhvt-PC with PID 37788 (D:\spring-dependency-injection\target\classes started by TuanAnh in D:\spring-dependency-injection)
+06-12-2020 20:39:25 - The following profiles are active: atm
+06-12-2020 20:39:26 - Started DemoApplication in 0.743 seconds (JVM running for 1.505)
+06-12-2020 20:39:32 - ============Select a request==========
+06-12-2020 20:39:32 - 1. Withdraw money
+06-12-2020 20:39:32 - 2. Deposit money
+06-12-2020 20:39:32 - 3. Display information
+06-12-2020 20:39:32 - 4. Exit
+06-12-2020 20:39:32 - Select:
+06-12-2020 20:39:36 - CustomerId: 1234, balance: 4
+06-12-2020 20:39:36 - Do you want to execute another exchange?(Y/N):
+06-12-2020 20:39:39 - ============Select a request==========
+06-12-2020 20:39:39 - 1. Withdraw money
+06-12-2020 20:39:39 - 2. Deposit money
+06-12-2020 20:39:39 - 3. Display information
+06-12-2020 20:39:39 - 4. Exit
+06-12-2020 20:39:39 - Select:
+06-12-2020 23:07:24 - Starting DemoApplication on TuanAnhvt-PC with PID 35320 (D:\spring-dependency-injection\target\classes started by TuanAnh in D:\spring-dependency-injection)
+06-12-2020 23:07:24 - The following profiles are active: dev
+06-12-2020 23:07:24 - Started DemoApplication in 0.563 seconds (JVM running for 1.173)
+06-12-2020 23:07:31 - ============Select a request==========
+06-12-2020 23:07:31 - 1. Withdraw money
+06-12-2020 23:07:31 - 2. Deposit money
+06-12-2020 23:07:31 - 3. Display information
+06-12-2020 23:07:31 - 4. Exit
+06-12-2020 23:07:31 - Select:
+06-12-2020 23:07:33 - Input amount:
+06-12-2020 23:07:33 - Exchange succesful!
+06-12-2020 23:07:33 - Do you want to execute another exchange?(Y/N):
+06-12-2020 23:07:35 - ============Select a request==========
+06-12-2020 23:07:35 - 1. Withdraw money
+06-12-2020 23:07:35 - 2. Deposit money
+06-12-2020 23:07:35 - 3. Display information
+06-12-2020 23:07:35 - 4. Exit
+06-12-2020 23:07:35 - Select:
+06-12-2020 23:07:37 - CustomerId: 123, balance: 3323
+06-12-2020 23:07:37 - Do you want to execute another exchange?(Y/N):

@@ -1,0 +1,168 @@
+{
+  "id": "70d4f30a-5a39-4057-b452-58e179c861a5",
+  "name": "pet",
+  "description": "",
+  "auth": null,
+  "events": null,
+  "variables": [],
+  "order": [
+    "1133ff6a-8bad-40b5-928e-ee105b1d8fea",
+    "2282a0da-79d1-446e-a72c-bd5083899d4d",
+    "5efe3f69-55d2-419a-88c2-3c5d2b52d3ed",
+    "843fd2fb-5d12-491c-8bc3-f540fdab74f2",
+    "9ab3ef19-11d2-41f6-8407-a9317a0d5e61"
+  ],
+  "folders_order": [],
+  "protocolProfileBehavior": {},
+  "folders": [],
+  "requests": [
+    {
+      "id": "1133ff6a-8bad-40b5-928e-ee105b1d8fea",
+      "name": "uploads an image",
+      "url": "https://petstore.swagger.io/v2/pet/123/uploadImage",
+      "description": "",
+      "data": [
+        {
+          "key": "petId",
+          "value": "123",
+          "description": "",
+          "type": "text",
+          "enabled": true
+        },
+        {
+          "key": "additionalMetadata",
+          "value": "Thu",
+          "description": "",
+          "type": "text",
+          "enabled": true
+        },
+        {
+          "key": "file",
+          "value": "/C:/Users/TuanAnh/Downloads/_MG_5288.jpg",
+          "description": "",
+          "type": "file",
+          "enabled": true
+        }
+      ],
+      "dataOptions": null,
+      "dataMode": "params",
+      "headerData": null,
+      "method": "POST",
+      "pathVariableData": [],
+      "queryParams": [
+        {
+          "key": "additionalMetadata",
+          "value": "Thu",
+          "equals": true,
+          "description": null,
+          "enabled": false
+        },
+        {
+          "key": "file",
+          "value": null,
+          "equals": false,
+          "description": null,
+          "enabled": false
+        }
+      ],
+      "auth": null,
+      "events": null,
+      "folder": null,
+      "pathVariables": {}
+    },
+    {
+      "id": "2282a0da-79d1-446e-a72c-bd5083899d4d",
+      "name": "Add a new pet to the store",
+      "url": "https://petstore.swagger.io/v2/pet",
+      "description": "",
+      "data": [],
+      "dataOptions": {
+        "raw": {
+          "language": "json"
+        }
+      },
+      "dataMode": "raw",
+      "headerData": null,
+      "method": "POST",
+      "pathVariableData": [],
+      "queryParams": [],
+      "auth": null,
+      "events": null,
+      "folder": null,
+      "rawModeData": "{\r\n  \"id\": 0,\r\n  \"category\": {\r\n    \"id\": 0,\r\n    \"name\": \"string\"\r\n  },\r\n  \"name\": \"doggie\",\r\n  \"photoUrls\": [\r\n    \"string\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 0,\r\n      \"name\": \"string\"\r\n    }\r\n  ],\r\n  \"status\": \"pendding\"\r\n}",
+      "pathVariables": {}
+    },
+    {
+      "id": "5efe3f69-55d2-419a-88c2-3c5d2b52d3ed",
+      "name": "Update an existing pet",
+      "url": "https://petstore.swagger.io/v2/pet",
+      "description": "",
+      "data": [],
+      "dataOptions": {
+        "raw": {
+          "language": "json"
+        }
+      },
+      "dataMode": "raw",
+      "headerData": null,
+      "method": "PUT",
+      "pathVariableData": [],
+      "queryParams": [],
+      "auth": null,
+      "events": null,
+      "folder": null,
+      "rawModeData": "{\r\n  \"id\": 100,\r\n  \"category\": {\r\n    \"id\": 123,\r\n    \"name\": \"string\"\r\n  },\r\n  \"name\": \"doggie\",\r\n  \"photoUrls\": [\r\n    \"string\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 0,\r\n      \"name\": \"string\"\r\n    }\r\n  ],\r\n  \"status\": \"available\"\r\n}",
+      "pathVariables": {}
+    },
+    {
+      "id": "843fd2fb-5d12-491c-8bc3-f540fdab74f2",
+      "name": "Finds Pets by status",
+      "url": "https://petstore.swagger.io/v2/pet/findByStatus?status=available",
+      "description": "",
+      "data": [],
+      "dataOptions": {
+        "raw": {
+          "language": "json"
+        }
+      },
+      "dataMode": "raw",
+      "headerData": null,
+      "method": "GET",
+      "pathVariableData": [],
+      "queryParams": [
+        {
+          "key": "status",
+          "value": "available",
+          "equals": true,
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "auth": null,
+      "events": null,
+      "folder": null,
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "rawModeData": "",
+      "pathVariables": {}
+    },
+    {
+      "id": "9ab3ef19-11d2-41f6-8407-a9317a0d5e61",
+      "name": "Updates a pet in the store with form data",
+      "url": "https://petstore.swagger.io/v2/pet/0",
+      "description": "",
+      "data": [],
+      "dataOptions": null,
+      "dataMode": "params",
+      "headerData": null,
+      "method": "POST",
+      "pathVariableData": [],
+      "queryParams": [],
+      "auth": null,
+      "events": null,
+      "folder": null,
+      "pathVariables": {}
+    }
+  ]
+}

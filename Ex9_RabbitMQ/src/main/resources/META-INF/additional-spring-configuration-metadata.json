@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "sapo.rabbitmq.queue",
+      "type": "java.lang.String",
+      "description": "Description for sapo.rabbitmq.queue."
+    }
+  ] }
